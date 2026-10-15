@@ -1,0 +1,23 @@
+#entorno virtual
+venv/
+.venv/
+
+#python
+__pycache__/
+*.py[cod]
+
+#django
+db.sqlite3
+staticfiles/
+
+#variables de entorno
+.env
+.env.*
+
+#archivos del editor
+.vscode/
+
+
+# archivos de sistema
+.DS_Store
+thumbs.db
